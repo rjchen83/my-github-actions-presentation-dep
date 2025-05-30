@@ -1,0 +1,18 @@
+name: Break The Checkout Action
+
+permissions:
+  id-token: write
+  pages: write
+  contents: none
+  
+on:
+  workflow_dispatch:
+
+jobs:
+  
+  demo-job:
+
+    runs-on: ubuntu-latest
+    steps:
+      
+      - uses: actions/checkout@v4
