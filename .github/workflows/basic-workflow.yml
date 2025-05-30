@@ -26,6 +26,7 @@ on:
           - New York
           - Seattle
           - Tupelo
+          - Irvine
       fav-color-blue:
         description: "Is your favorite color blue"
         required: true
