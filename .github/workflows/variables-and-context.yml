@@ -74,6 +74,7 @@ jobs:
           echo ""
 
           echo $VAR2
+          echo ${{env.VAR2}}
 
           echo $VAR3
         env: 
